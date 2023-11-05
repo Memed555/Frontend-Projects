@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&family=Inter:wght@400;700&family=Lato&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Fraunces', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-color: hsl(225, 100%, 94%);
+     display: flex;
+     justify-content: center;
+   align-items: center;
+   box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.card{
+background-color: hsl(0, 0%, 100%);
+width: 375px;
+height: 700px;
+border-radius: 19px;
+margin: 100px;
+
+
+}
+.img>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 19px;
+    border-top-left-radius:19px ;
+}
+h2{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+   font-weight: 900;
+}
+.music-card{
+margin: 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    
+}
+.music-card>img{
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+
+}
+.music-card>p{
+    padding-left: 10px;
+}
+.x{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+.music-card>a{
+    padding-left: 90px;
+    font-weight: 700;
+}
+
+button{
+    border-radius: 7px;
+    border: 0px solid ;
+    width: 330px;
+    height: 50px;
+   background-color: hsl(245, 75%, 52%);
+   box-shadow: 2px 2px  47px rgba(0, 0, 0, 0.5) ;
+   margin-top: 15px;
+   margin-left: 22px;
+   margin-bottom: 25px;
+    
+ 
+    
+   
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:ital,opsz,wght@1,9..144,700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lato&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+body{
+    font-family: Poppins;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headers
+{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+    background-color: #FFF;
+    height: 300px;
+    margin-top: 50px;
+    background-color: hsl(0, 0%, 98%);
+    
+
+}
+.span1{
+    color:  hsl(229, 6%, 66%);
+    font-size: 26px;
+}
+.span2{
+    color:  hsl(234, 12%, 34%);
+    font-size: 23px;
+    font-weight: 700;
+}
+.span3{
+    color:hsl(229, 6%, 66%) ;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 700px;
+    padding-right: 700px;
+}
+.cards{
+    display: flex;
+  flex-wrap: wrap;
+
+    
+    
+    
+    
+}
+.card1{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    
+    border-radius: 10px;
+  
+    width: 400px;
+    height: 250px;
+    background-color: #FFF;
+    margin: 15px;
+
+
+
+
+
+
+
+   
+
+}
+.card2{
+    border-top: 4px solid hsl(0, 78%, 62%);
+    
+    border-radius: 10px;
+    
+    width: 400px;
+    height: 250px;
+    background-color: #FFF;
+    margin: 15px;
+
+
+
+   
+}
+.card3
+{
+    border-top: 4px solid hsl(34, 97%, 64%);
+    
+    border-radius: 10px;
+   
+    width: 400px;
+    height: 250px;
+    background-color: #FFF;
+    margin: 15px;
+
+
+
+
+    
+}
+.card4{
+    border-top: 4px solid hsl(212, 86%, 64%);
+    
+    border-radius: 10px;
+   
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    margin: 15px;
+
+
+
+  
+}
+.card1>img{
+    position: relative;
+   top: 120px;
+   left: 320px;
+    width: 50px;
+}
+.card2>img{
+    position: relative;
+    top: 100px;
+    left: 320px;
+     width: 50px;
+}
+.card3>img{
+    position: relative;
+    top: 120px;
+    left: 320px;
+     width: 50px;
+}
+.card4>img{
+    position: relative;
+    top: 100px;
+    left: 320px;
+     width: 50px;
+}
+h3{
+   padding-left: 30px;
+}
+p{
+    color:  hsl(229, 6%, 66%);
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 1;
+}
+.card23{
+    display: flex;
+    flex-direction: column;
+}
+.card14{
+    display: flex;
+    flex-direction: row;
+}

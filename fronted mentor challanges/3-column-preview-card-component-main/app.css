@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&family=Inter:wght@400;700&family=Lato&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:ital,opsz,wght@1,9..144,700&family=Inter:wght@400;700&family=Lato&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   
+
+}
+.main-card{
+    width: 400px;
+    height: 900px;
+    margin-top: 10px;
+    border-radius: 10px;
+   
+}
+.card1{
+    background-color: hsl(31, 77%, 52%);
+   
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height:300px ;
+    padding-right: 10px;
+    
+   
+}
+ h1{
+    color: #fff;
+    font-family: 'Big Shoulders Display', cursive;
+
+
+}
+ p,a{
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+}
+.card1 a{
+    color:hsl(31, 77%, 52%);
+    font-size: 15px;
+}
+.card2 a{
+    color: hsl(184, 100%, 22%);
+    font-size: 15px;
+}
+.card3 a{
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+}
+.x{
+    margin-left: 40px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #fff;
+    width: 150px;
+   height: 45px;
+   
+}
+
+
+
+
+
+.card2{
+     height:300px ;
+     background-color:  hsl(184, 100%, 22%);
+     padding-right: 10px;
+}
+.card3{
+    height:300px ;
+    background-color:   hsl(179, 100%, 13%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-right: 10px;
+}
+
+
+img{
+    height: 30px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom:20px ;
+}
+h1{
+    font-size: 36px;
+    padding-left: 40px;
+}
+p{
+    line-height:30px;
+    margin-left: 40px;
+    padding-bottom: 15px;
+}
+.card14{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+.card23{
+    display: flex;
+      justify-content: space-between;
+      margin: 0 10px;
+}

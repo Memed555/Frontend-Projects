@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:ital,opsz,wght@1,9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lato&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Karla;
+    
+    background-color: hsl(204, 43%, 93%);
+}
+
+.main-contain {
+    
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+   border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    top: 200px;
+    
+}
+
+.card1 {
+    margin-top: -25px;
+   
+   border-top-right-radius:5px ;
+   border-top-left-radius:5px ;
+    padding: 70px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+   
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+.span1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 30px;
+}
+
+.span2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 15px;
+}
+
+.span3 {
+font-weight: 500;
+    color: hsl(204, 43%, 93%);
+}
+.card2{
+    display: flex;
+    flex-direction: row;
+}
+.card3{
+   display: flex;
+   flex-direction: column;
+   padding: 70px;
+   width: 400px;
+   height: 300px;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 5px;
+    color: #fff;
+    
+}
+.button{
+    position: absolute;
+    top: 500px;
+    width: 250px;
+    height: 50px;
+    border-radius: 3px;
+    border:0px solid;
+    background-color: hsl(71, 73%, 54%);
+    box-shadow: 1px 6px 19px hsl(0, 0%, 67%);
+    color: #fff;
+    font-weight:  bolder;
+    font-size: 18px;
+    transition: transform 0.2s ease-in-out;
+}
+.button:hover{
+    transform: scale(1.03) ;
+}
+.card4{
+    display: flex;
+    flex-direction: column;
+   
+    width: 400px;
+    height: 300px;
+     background-color: hsl(218, 22%, 67%);
+     border-bottom-right-radius: 5px;
+     color: #fff;
+     padding: 70px;
+}

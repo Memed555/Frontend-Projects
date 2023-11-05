@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:ital,opsz,wght@1,9..144,700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lato&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+   
+
+}
+
+body {
+    width: 100%;
+    height: 100%; 
+
+}
+
+.main {
+    font-family: League Spartan;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+   
+}
+
+.headersandstars {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+  margin: 200px;
+
+}
+
+.headers {
+    width: 50%;
+}
+
+.headers>h1 {
+    color: hsl(300, 43%, 22%);
+    padding-bottom: 20px;
+    width: 200px;
+}
+.headers>p{
+    width: 350px;
+    color: hsl(303, 10%, 53%);
+    line-height: 18px;
+}
+.stars{
+ margin-left: 50px;
+ margin-top: 10px;
+    height: 400px;
+}
+.second > img{
+width: 20px;
+}
+.first>img{
+    width: 20px;
+}
+.third>img{
+    width: 20px;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    border-radius: 6px;
+    background-color: hsl(300, 24%, 96%);
+    width: 350px;
+    height: 40px;
+    margin-bottom: 10px;
+    color:  hsl(300, 43%, 22%);
+    font-weight: bold;
+
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 6px;
+    background-color: hsl(300, 24%, 96%);
+    width: 350px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    color:  hsl(300, 43%, 22%);
+    font-weight: bold;
+
+}
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 6px;
+    background-color: hsl(300, 24%, 96%);
+    width: 350px;
+    height: 40px;
+    margin-left: 50px;
+    color:  hsl(300, 43%, 22%);
+    font-weight: bold;
+}
+.card1 {
+    width: 200px;
+    height: 300px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card1:hover {
+    transform: scale(1.1);
+  }
+  .card2 {
+    width: 200px;
+    height: 300px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card2:hover {
+    transform: scale(1.1);
+  }
+  .card3 {
+    width: 200px;
+    height: 300px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card3:hover {
+    transform: scale(1.1);
+  }
+
+
+.cards{
+    display: flex;
+ justify-content: space-around;
+   
+    background-color: rgb(255, 255, 255);
+   margin: 100px;
+  
+
+}
+.card1{
+    padding: 30px;
+    margin-top: -400px;
+   height: 250px; 
+   width: 400px;
+   margin-right: 10px;
+   background-color: hsl(300, 43%, 22%);
+   border-radius: 10px;
+   box-sizing: border-box;
+
+}
+.card2{
+    
+    padding: 30px;
+    margin-top: -350px;
+    height: 250px; 
+    width: 400px;
+    margin-right: 10px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    box-sizing: border-box;
+ 
+}
+.card3{
+    padding: 30px;
+    margin-top: -300px;
+    height: 250px; 
+    width: 400px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px; 
+    box-sizing: border-box;
+ 
+}
+img{
+    width: 35px;
+    border-radius: 50%;
+
+}
+.span{
+    color: hsl(300, 24%, 96%);
+    line-height: 25px;
+    font-size: 18px;
+}
+.img1 ,.img2,.img3{
+    display: flex;
+    justify-content: center;
+    margin-left: -230px;
+    margin-bottom: 20px;
+    
+
+}
+.span1{
+    color: aliceblue;
+}
+.span3{
+    color:  hsl(333, 80%, 67%);
+}
+.spans{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   padding-left: 10px;
+   line-height: 20px;
+   
+  
+    
+}

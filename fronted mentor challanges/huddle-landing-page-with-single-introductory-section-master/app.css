@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:ital,opsz,wght@1,9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lato&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:ital,opsz,wght@1,9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lato&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@300;400;600&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 100%;
+    overflow:hidden ;
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    color: #fff;
+   
+    background-color: hsl(257, 40%, 49%) ;
+   
+}
+.main{
+    position: relative;
+    bottom: 50%;
+    transform: translateY(50%);
+    
+    display: flex;
+    flex-direction: row;
+}
+button{
+    border-radius: 40px;
+    color: #fff;
+    border: 0px solid;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button>span{
+    color:  hsl(300, 69%, 71%);
+    font-size: 15px;
+}
+.yaz{
+    
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    
+}
+.span1{
+        font-family: 'poppins';
+        line-height: 50px;
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 60px;
+       margin-right: 820px;
+       margin-left: 100px;
+       margin-bottom: 20px;
+    }
+.span2{
+    line-height: 30px;
+    margin-right: 640px;
+    margin-left: 100px;
+    font-family:'Open Sans' ;
+}
+    button{
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-right: 1000px;
+        box-shadow:  2px 2px 19px hsl(0, 0%, 21%);
+        transition: transform 0.2s  ease-in-out;
+        font-weight: 700;
+    }
+    button:hover{
+        transform: scale(1.04);
+    }
+   img{
+    margin-left: 300px;
+   }

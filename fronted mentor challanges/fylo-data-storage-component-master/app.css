@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Fraunces:ital,opsz,wght@1,9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lato&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@300;400;600&family=Poppins:wght@200;400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Raleway';
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(229, 57%, 11%);
+    background-position: 0px 500px;
+    font-size: 14px;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.card1 {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-60%);
+    padding: 40px;
+
+    height: 200px;
+    width: 400px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: hsl(228, 56%, 26%);
+    margin-left: -400px;
+
+}
+
+.images {
+    display: grid;
+    gap: 2px;
+    width: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-top: 50px;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(229, 57%, 11%);
+   
+}
+
+.imaj{
+    height: 50px;
+    margin-top: 40px;
+    
+}
+.card2{
+    height:140px;
+    width: 500px;
+    background-color: hsl(228, 56%, 26%);
+    position: absolute;
+    top: 60%;
+    transform: translateY(-60%);
+    padding: 40px;
+    border-radius: 5px;
+    margin-left: 110px;
+    margin-top: 25px;
+
+}
+.bar{
+    position: relative;
+    top: 40%;
+transform: translateY(-40%);
+    height: 20px;
+    width:500px ;
+    border-radius: 20px;
+
+    background-color:hsl(229, 57%, 11%) ;
+}
+.inbar{
+    background-image: linear-gradient( to right ,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.whitebar{
+    
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.yaz{
+    position: relative;
+    top: 45%;
+    transform: translateY(-45%);
+    width: 500px;
+    height: 1px;
+   
+    display: flex;
+    justify-content: flex-start;
+}
+.yaz1{
+    width: 500px;
+    height: 1px;
+    position: relative;
+    top: 45%;
+    transform: translateY(-45%);
+    display: flex;
+    justify-content: flex-end;
+}
+.yaz0{
+    position: relative;
+    top: 25%;
+    transform: translateY(-25%);
+}
