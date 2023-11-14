@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:wght@400;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  font-family: 'poppins';
+  height: 100vh;
+  background-color:hsl(0, 1%, 47%);
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color: wheat;
+  border-radius: 0.8rem;
+  padding: 1.8rem 0  1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  margin: 0.8rem;
+}
+p{
+  margin-top:0;
+  margin-bottom: 0.8rem;
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
+}
+.inputs{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+input{
+  border-radius: 0.2rem;
+  border: none;
+  height: 2.5rem;
+ width: 100%;
+ margin-bottom: 1rem;
+ padding: 0.8rem;
+ outline: none;
+}
+
+button{
+  border-radius: 0.3rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  color:white;
+  background-color: blue;
+  padding: 0.6rem 1.5rem;
+  
+}
+button:hover{
+  color: yellow;
+  background-color:green;
+}
+button:focus{
+  color: green;
+  background-color: yellow;
+}
+#resutl{
+  text-align: center;
+}
+.success,.error{
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 0.28rem;
+  margin-top: 1rem;
+}
+.success{
+background-color:#92ff92  ;
+color:#078307 ;
+}
+.error{
+  background-color:#ffc4b0 ;
+  color:#a00606 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
